@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;    
+    color: black;   
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Old Standard TT', serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* HEADER*/
+
+.header {
+    padding: 0 2%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 12%;
+}
+
+.headerLogo img {
+    width: 100%;
+}
+
+
+.divMenu {
+    width: 60%;
+}
+
+.headerMenu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.headerMenu ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.headerWp {
+    height: 10vh;
+}
+
+
+/* inicio */
+/* HERO */
+
+.hero {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/img/istockphoto-898577958-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.textoHero {
+    text-align: center;
+    padding: 10% 5%;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/* ASIDE*/
+
+.bienvenidosAside {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;    
+}
+
+.seccionBienvenidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vw;
+    height: 100%;
+
+}
+
+.logoBienvenida {
+    background-image: url(/img/Logo\ bienvenida.png);
+    background-size: cover;
+    padding: 0;
+    height: 35vh; 
+    width: 80%;
+    margin-left: 5%;
+    
+}
+
+.bienvenidos {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 2% 0;
+    
+}
+
+.textoBienvenida {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0;
+    margin-top: 2%;
+
+}
+
+.asideInicio {
+    height: 50%;
+    width: 50%;
+}
+
+.asideInicio img {
+    display: flex;
+    justify-content: center;
+    height: 100%;    
+    width: 100%;
+
+}
+
+
+
+
+/* tratamiento */
+
+
+.tratamientoConteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "uñas pestañas cejas"
+    "picUñas picPestañas picCejas";
+
+    row-gap: 10%;
+    margin-bottom: 5%;
+
+}
+
+
+.uñas {
+    grid-area: uñas;
+    background-image: url(/img/cartas\ tratatamientos.jpg);
+    margin: 0 15%;
+    height: 40vh;
+    text-align: center;
+    font-size: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.pestañas {
+    grid-area: pestañas;
+    background-image: url(/img/cartas\ tratatamientos.jpg);
+    margin: 0 15%;
+    height: 40vh;
+    text-align: center;
+    font-size: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.cejas{
+    grid-area: cejas;
+    background-image: url(/img/cartas\ tratatamientos.jpg);
+    margin: 0 15%;
+    height: 40vh;
+
+    text-align: center;
+    font-size: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.fotoUñas {
+    grid-area: picUñas;
+}
+
+.fotoPestaña {
+    grid-area: picPestañas;
+}
+
+.fotoCejas {
+    grid-area: picCejas;
+
+}
+
+.tratamientosItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgTratamiento {
+    height: 40vh;
+    width: 25vw;
+}
+
+
+/* Nosotros */
+
+.nosotros {
+    display: grid;
+    grid-template-columns: repeat(2. 1fr);
+    grid-template-areas: 
+    "imagen conocenos";
+    
+
+}
+
+.divImgNosotros {
+    grid-area: imagen;
+}
+
+.imgNosotros {
+    width: 50vw;
+}
+
+.asideNosotros {
+    grid-area: conocenos;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0;
+    padding: 0 10%;
+}
+
+aside p {
+    font-size: 1.2rem;
+}
+
+.botonTratamiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+
+/* Turnos */
+
+.ubicacionConteiner {
+    display: grid;
+    grid-template-columns: repeat(2. 1fr);
+    grid-template-areas: 
+    "encontranos mapa";    
+}
+
+.encontranos {
+    grid-area: encontranos;
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0;
+    padding: 0 10%;
+
+}
+
+.mapa {
+    grid-area: mapa;
+    width: 50vw;
+}
+
+.botonTurnos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+/* Contactos*/
+
+.titleContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2% 0;
+}
+
+.form {
+
+    display: flex;
+    justify-content: space-evenly;      
+    margin: 2% 0;
+}
+
+.logoMailForm {
+    height: 4vh;
+}
+
+.contactoForm {
+    background-image: url(/img/cartas\ tratatamientos.jpg);
+    height: 40vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.formContacto input {
+    width: 100% ;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.contactoWp {
+    background-image: url(/img/cartas\ tratatamientos.jpg);
+    height: 50vh;
+    width: 20vw;
+
+    text-align: center;
+    font-size: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-right: 4%;
+}
+
+.contactoInsta {
+    background-image: url(/img/cartas\ tratatamientos.jpg);
+    height: 50vh;
+    width: 20vw;
+
+    text-align: center;
+    font-size: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    margin-left: 4%;
+}    
+
+.logoSocial {
+    height: 7vh;
+}
+
+/* botones */
+
+.boton {
+    background-color: #FAEBCD;
+    font-size: 1rem;
+    margin: 2% 0;
+}
+
+
+/* FOOTER  */
+
+
+
+.footerConteiner {
+    background-color: #FAEBCD;
+    font-family: 'Old Standard TT', serif;
+
+    padding: 3%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "mapa mail pagos"
+    "footer footer footer";
+}
+
+.footerItem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footerMapa {
+    grid-area: mapa;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerMapa img{
+    height: 5vh;
+    margin: 5%;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.footerMail {
+    grid-area: mail;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerMail img {
+    height: 5vh;
+    margin: 5%;
+}
+
+.footerPago {
+    grid-area: pagos;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerPago img{
+    height: 5vh;
+}
+
+.logoMp {
+    grid-area: mp;
+}
+
+.logoEfectivo{
+    grid-area: efectivo;
+}
+
+.medioPago {
+    grid-area: pagos;
+    margin-top: 2%;
+}
+
+.footerPago img {
+    height: 6vh;
+    margin-top: 2%;
+}
+
+
+
+.footer {
+    grid-area: footer;
+    margin-top: 2%;
+}
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 769px) {
+    .bienvenidosAside {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+    .seccionBienvenidos, .asideInicio {
+        width: 100%;
+    }
+
+    .textoBienvenida {
+        margin-bottom: 4%;
+        padding: 4%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: 40%;
+    }
+    
+    .headerMenu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .headerMenu li {
+        padding: 4% 0;
+    }
+
+    .headerLogo a img {
+        height: 12vh;
+        width: 12vw;
+    }
+
+    .headerWp {
+        height: 10vh;
+    }    
+
+    .footerConteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerMapa, .footerMail, .footerPago {
+        margin: 4% 0;
+    }
+}
