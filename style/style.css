@@ -67,7 +67,7 @@ a {
 .hero {
     height: 70vh;
     width: 100%;
-    background-image: url(./img/istockphoto-898577958-612x612.jpg);
+    background-image: url("../img/istockphoto-898577958-612x612.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -99,7 +99,7 @@ a {
 }
 
 .logoBienvenida {
-    background-image: url(./img/Logo\ bienvenida.png);
+    background-image: url("../img/Logo\ bienvenida.png");
     background-size: cover;
     padding: 0;
     height: 35vh; 
@@ -158,7 +158,7 @@ a {
 
 .uñas {
     grid-area: uñas;
-    background-image: url(./img/cartas\ tratatamientos.jpg);
+    background-image: url("../img/cartas\ tratatamientos.jpg");
     margin: 0 15%;
     height: 40vh;
     text-align: center;
@@ -174,7 +174,7 @@ a {
 
 .pestañas {
     grid-area: pestañas;
-    background-image: url(./img/cartas\ tratatamientos.jpg);
+    background-image: url("../img/cartas\ tratatamientos.jpg");
     margin: 0 15%;
     height: 40vh;
     text-align: center;
@@ -189,7 +189,7 @@ a {
 
 .cejas{
     grid-area: cejas;
-    background-image: url(./img/cartas\ tratatamientos.jpg);
+    background-image: url("../img/cartas\ tratatamientos.jpg");
     margin: 0 15%;
     height: 40vh;
 
@@ -326,7 +326,7 @@ aside p {
 }
 
 .contactoForm {
-    background-image: url(./img/cartas\ tratatamientos.jpg);
+    background-image: url("../img/cartas\ tratatamientos.jpg");
     height: 40vh;
     width: 25vw;
     display: flex;
@@ -349,7 +349,7 @@ aside p {
 }
 
 .contactoWp {
-    background-image: url(./img/cartas\ tratatamientos.jpg);
+    background-image: url("../img/cartas\ tratatamientos.jpg");
     height: 50vh;
     width: 20vw;
 
@@ -365,7 +365,7 @@ aside p {
 }
 
 .contactoInsta {
-    background-image: url(./img/cartas\ tratatamientos.jpg);
+    background-image: url("../img/cartas\ tratatamientos.jpg");
     height: 50vh;
     width: 20vw;
 
