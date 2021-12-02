@@ -228,8 +228,16 @@ a {
     width: 25vw;
 }
 
-.imgTratamiento:hover {
-    transform: scale(1.5);
+.fotoCejas:hover {
+    transform: scale(1.1);
+}
+
+.fotoPestaña:hover{
+    transform: scale(1.1);
+}
+
+.fotoUñas:hover{
+    transform: scale(1.1);
 }
 
 /* Nosotros */
