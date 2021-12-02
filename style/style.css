@@ -220,6 +220,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 1.5s;
 }
 
 .imgTratamiento {
@@ -227,6 +228,9 @@ a {
     width: 25vw;
 }
 
+.imgTratamiento:hover {
+    transform: scale(1.5);
+}
 
 /* Nosotros */
 
