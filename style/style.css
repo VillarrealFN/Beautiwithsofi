@@ -25,12 +25,16 @@ a {
 /* HEADER*/
 
 .header {
-    padding: 0 2%;
+    margin-top: -10%;
+    padding: 4% 0 2% 0;
     position: fixed;
-    width: 100%;
+    width: 101%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+
 }
 
 .headerLogo {
@@ -65,17 +69,22 @@ a {
 /* HERO */
 
 .hero {
-    height: 70vh;
-    width: 100%;
     background-image: url("../img/istockphoto-898577958-612x612.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 82vh;
+    width: 100%;
+    margin-top: 10%;
 }
 
 .textoHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 10% 5%;
+    padding: 15% 10% 0 10%;
     font-weight: 400;
     font-size: 3rem;
 }
@@ -112,15 +121,15 @@ a {
     text-align: center;
     font-size: 2rem;
     padding: 0;
-    margin: 2% 0;
+    margin: 2% 2%;
     
 }
 
 .textoBienvenida {
     text-align: center;
     font-size: 1.1rem;
-    padding: 0;
-    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 4%;
 
 }
 
@@ -501,6 +510,41 @@ nav ul li{
 /* MEDIA QUERIES*/
 
 @media screen and (max-width: 769px) {
+    
+
+
+    .header {
+        background-color: white;
+        margin-bottom: 2%;
+    }
+
+    .divMenu ul li a {
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .headerWp {
+        margin-left: 1%;
+        height: 6vh;
+    }
+
+    .divMenu {
+        margin-left: -8%;
+    }
+
+    header nav ul li a {
+        width: 10%;
+        height: 5%;
+    }
+
+    .headerWp {
+        margin-left: 8%;
+    }
+
+    .textoHero {
+        padding: 20% 5% 0 5%;
+    }
+
     .bienvenidosAside {
         flex-direction: column;
         justify-content: center;
@@ -518,12 +562,15 @@ nav ul li{
 }
 
 @media screen and (max-width: 480px) {
+    
     .header {
         flex-direction: column;
         align-items: center;
-        height: 40%;
+        height: 56%;
+        background-color: white;
+        margin-top: -44%;
     }
-    
+
     .headerMenu ul {
         display: flex;
         flex-direction: column;
@@ -543,6 +590,16 @@ nav ul li{
     .headerWp {
         height: 10vh;
     }    
+
+    .hero {
+        margin-top: 44%;
+    }
+    
+
+    .textoHero {
+        padding: 54% 5%;
+    }
+
 
     .footerConteiner {
         display: flex;
