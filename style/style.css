@@ -510,9 +510,6 @@ nav ul li{
     /* MEDIA QUERIES*/
 
     @media screen and (max-width: 769px) {
-        
-
-
         .header {
             background-color: white;
             margin-bottom: 2%;
@@ -549,7 +546,7 @@ nav ul li{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    }
+        }
         .seccionBienvenidos, .asideInicio {
             width: 100%;
         }
