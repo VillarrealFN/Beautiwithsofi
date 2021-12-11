@@ -26,6 +26,7 @@ a {
 
 .header {
     margin-top: -10%;
+    margin-bottom: 4%;
     padding: 4% 0 2% 0;
     position: fixed;
     width: 101%;
@@ -227,6 +228,9 @@ a {
 }
 
 .tratamientosItem{
+    margin-top: 35%;
+    margin-bottom: 10%;
+    padding: 1% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,7 +340,7 @@ aside p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     margin-top: 10%;
 
 }
@@ -514,113 +518,234 @@ nav ul li{
 
     /* MEDIA QUERIES*/
 
-    @media screen and (max-width: 769px) {
-        .header {
-            margin-bottom: 2%;
-        }
+@media screen and (max-width: 769px) {
+    .header {
+        margin-bottom: 2%;
+    }
 
-        .header {
-            background-color: white;
-
-        }
+    .header {
+        background-color: white;
+    }
 
  
 
-        .divMenu ul li a {
-            width: 5vw;
-            height: 5vh;
-        }
+    .divMenu ul li a {
+        width: 5vw;
+        height: 5vh;
+    }
 
-        .divMenu {
-            margin-left: -8%;
-        }
+    .divMenu {
+        margin-left: -8%;
+    }
 
-        .headerWp {
-            margin-left: 8%;
-            height: 6vh;
-        }
+    .headerWp {
+        margin-left: 8%;
+        height: 6vh;
+    }
 
 
-        header nav ul li a {
-            width: 10%;
-            height: 5%;
-        }
+    header nav ul li a {
+        width: 10%;
+        height: 5%;
+    }
 
-        .headerWp {
-            margin-left: 8%;
-        }
+    .headerWp {
+        margin-left: 8%;
+    }
 
-        .textoHero {
-            padding: 20% 5% 0 5%;
-        }
+    /* index */
 
-        .bienvenidosAside {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .seccionBienvenidos, .asideInicio {
-            width: 100%;
-        }
+    .textoHero {
+        padding: 20% 5% 0 5%;
+    }
 
-        .textoBienvenida {
-            margin-bottom: 4%;
-            padding: 4%;
-        }
+    .bienvenidosAside {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionBienvenidos, .asideInicio {
+        width: 100%;
+    }
+
+    .textoBienvenida {
+        margin-bottom: 4%;
+        padding: 4%;
+    }
+
+    
+
+    /* tratamientos */
+
+    .tratamientoConteiner {
+        height: 15vh;
+        width: 100vw;
+        padding-bottom: 35%;
+        margin-bottom: 50%;
+    }
+
+
+    .tratamientosItem {
+        margin-top: 50%;
+        font-size: 1.5rem;
+    }
+
+    .cartas p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgTratamiento {
+        margin-top: -30%;
+        height: 30vh;
+    }
+
+    /* footer */
+
+
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    /* header */
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: 63%;
+        background-color: white;
+        margin-top: -44%;
+    }
+
+    .headerMenu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -8%;
+    }
+
+    .headerMenu li {
+        padding: 4% 0;
+    }
+
+    .headerLogo a img {
+        height: 12vh;
+        width: 12vw;
+    }
+
+    .divMenu {
+        margin: 0;
+    }
+
+    .headerWp {
+        height: 10vh;
+    }    
+
+    /* Index */
+
+    .hero {
+        margin-top: 44%;
+    }
+        
+
+    .textoHero {
+        padding: 54% 5%;
+    }
+
+    /* tratamiento */
+
+    .tratamientoConteiner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "uñas"
+        "picUñas"
+        "pestañas"
+        "picPestañas"
+        "cejas"
+        "picCejas";
+
+
+        margin-top: 44%;
+        padding-top: 30%;
+        padding-bottom: 50%;
+        margin-bottom: 310%;
+    }
+
+    .uñas {
+        width: 50vw;
+        grid-area: uñas;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+
+    .fotoUñas {
+        width: 78vw;
+        margin-left: 3%;
+        grid-area: picUñas;
+        margin-top: 26%;
+    }
+
+    .pestañas {
+        width: 50vw;
+        grid-area: pestañas;
+        margin-left: 25%;
+        margin-bottom: -32%;
+    }
+
+    .fotoPestaña {
+        width: 78vw;
+        grid-area: picPestañas;
+        margin-left: 3%;
+        padding-top: 10%;
+    }
+
+    .cejas {
+        width: 50vw;
+        grid-area: cejas;
+        margin-left: 25%;
+        margin-bottom: -32%;
+    }
+
+    .fotoCejas {
+        width: 78vw;
+        grid-area: picCejas;
+        margin-left: 3%;
+        padding-top: 10%;
+    }
+
+    .uñas h2, .cejas h2, .pestañas h2{
+        margin-bottom: 24%;
+}
+
+    .uñas p, .cejas p, .pestañas p{
+        margin-bottom: 22%;
+        
+    }
+
+    .imgTratamiento{
+        width: 56vw;
+        margin-left: 24%;
 
     }
 
-    @media screen and (max-width: 480px) {
-        
-        .header {
-            flex-direction: column;
-            align-items: center;
-            height: 61%;
-            background-color: white;
-            margin-top: -44%;
-        }
-
-        .headerMenu ul {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-left: -8%;
-        }
-
-        .headerMenu li {
-            padding: 4% 0;
-        }
-
-        .headerLogo a img {
-            height: 12vh;
-            width: 12vw;
-        }
-
-        .divMenu {
-            margin: 0;
-        }
-
-        .headerWp {
-            height: 10vh;
-        }    
-
-        .hero {
-            margin-top: 44%;
-        }
-        
-
-        .textoHero {
-            padding: 54% 5%;
-        }
 
 
-        .footerConteiner {
-            display: flex;
-            flex-direction: column;
-        }
+    /* footer */
 
-        .footerMapa, .footerMail, .footerPago {
-            margin: 4% 0;
-        }
+    .footerConteiner {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
     }
+
+    .footerMapa, .footerMail, .footerPago {
+        margin: 4% 0;
+    }
+}
