@@ -17,14 +17,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a {
+    list-style: none;
     text-decoration: none;
     color: black;
 }
 
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
 
 /* HEADER*/
 
 .header {
+<<<<<<< HEAD
     margin-top: -10%;
     padding: 4% 0 2% 0;
     position: fixed;
@@ -34,8 +41,18 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+=======
+    padding: 0 2%;
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAEBCD;
+>>>>>>> d77e25fbd60bc9830d5f4ff53f8605468efebf02
 
 }
+
 
 .headerLogo {
     width: 12%;
@@ -148,9 +165,7 @@ a {
 
 
 
-
 /* tratamiento */
-
 
 .tratamientoConteiner {
     display: grid;
@@ -161,7 +176,7 @@ a {
 
     row-gap: 10%;
     margin-bottom: 5%;
-
+    margin-top: 4%;
 }
 
 
@@ -451,9 +466,6 @@ aside p {
     margin: 5%;
 }
 
-nav ul li{
-    list-style: none;
-}
 
 .footerMail {
     grid-area: mail;
@@ -500,7 +512,9 @@ nav ul li{
     margin-top: 2%;
 }
 
-
+.footerConteiner {
+    height: 35vh;
+}
 
 .footer {
     grid-area: footer;
@@ -609,4 +623,10 @@ nav ul li{
     .footerMapa, .footerMail, .footerPago {
         margin: 4% 0;
     }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
 }
