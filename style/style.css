@@ -159,6 +159,7 @@ a {
     "uñas pestañas cejas"
     "picUñas picPestañas picCejas";
 
+    margin-top: 10%;
     row-gap: 10%;
     margin-bottom: 5%;
 
@@ -252,6 +253,8 @@ a {
 /* Nosotros */
 
 .nosotros {
+    margin-top: 10%;
+
     display: grid;
     grid-template-columns: repeat(2. 1fr);
     grid-template-areas: 
@@ -294,6 +297,8 @@ aside p {
 /* Turnos */
 
 .ubicacionConteiner {
+    margin-top: 10%;
+
     display: grid;
     grid-template-columns: repeat(2. 1fr);
     grid-template-areas: 
@@ -331,12 +336,12 @@ aside p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    margin-top: 10%;
 
-    margin: 2% 0;
 }
 
 .form {
-
     display: flex;
     justify-content: space-evenly;      
     margin: 2% 0;
@@ -519,19 +524,22 @@ nav ul li{
 
         }
 
+ 
+
         .divMenu ul li a {
             width: 5vw;
             height: 5vh;
         }
 
-        .headerWp {
-            margin-left: 1%;
-            height: 6vh;
-        }
-
         .divMenu {
             margin-left: -8%;
         }
+
+        .headerWp {
+            margin-left: 8%;
+            height: 6vh;
+        }
+
 
         header nav ul li a {
             width: 10%;
@@ -567,7 +575,7 @@ nav ul li{
         .header {
             flex-direction: column;
             align-items: center;
-            height: 56%;
+            height: 61%;
             background-color: white;
             margin-top: -44%;
         }
@@ -575,8 +583,9 @@ nav ul li{
         .headerMenu ul {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
-
+            margin-left: -8%;
         }
 
         .headerMenu li {
@@ -586,6 +595,10 @@ nav ul li{
         .headerLogo a img {
             height: 12vh;
             width: 12vw;
+        }
+
+        .divMenu {
+            margin: 0;
         }
 
         .headerWp {
