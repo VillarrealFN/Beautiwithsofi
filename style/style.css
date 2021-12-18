@@ -72,7 +72,7 @@ a {
 /* HERO */
 
 .hero {
-    background-image: url("../img/istockphoto-898577958-612x612.jpg");
+    background-image: url("../img/istockphoto-898577958-612x612.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -111,7 +111,7 @@ a {
 }
 
 .logoBienvenida {
-    background-image: url("../img/Logo\ bienvenida.png");
+    background-image: url("../img/Logo\ bienvenida.webp");
     background-size: cover;
     padding: 0;
     height: 35vh; 
