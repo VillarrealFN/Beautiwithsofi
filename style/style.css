@@ -44,6 +44,7 @@ a {
 
 .headerLogo img {
     width: 100%;
+    height: 2%;
 }
 
 
@@ -63,6 +64,7 @@ a {
 
 .headerWp {
     height: 10vh;
+    width: 9vw;
 }
 
 
@@ -353,6 +355,7 @@ aside p {
 
 .logoMailForm {
     height: 4vh;
+    
 }
 
 .contactoForm {
@@ -457,6 +460,7 @@ aside p {
 
 .footerMapa img{
     height: 5vh;
+    width: 4vw;
     margin: 5%;
 }
 
@@ -475,6 +479,7 @@ nav ul li{
 
 .footerMail img {
     height: 5vh;
+    width: 3vw;
     margin: 5%;
 }
 
@@ -489,6 +494,7 @@ nav ul li{
 
 .footerPago img{
     height: 5vh;
+    width: 4vw;
 }
 
 .logoMp {
@@ -506,6 +512,7 @@ nav ul li{
 
 .footerPago img {
     height: 6vh;
+    width: 3vw;
     margin-top: 2%;
 }
 
