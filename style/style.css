@@ -24,47 +24,29 @@ a {
 
 /* HEADER*/
 
-.header {
-    margin-top: -10%;
-    margin-bottom: 4%;
-    padding: 4% 0 2% 0;
-    position: fixed;
-    width: 101%;
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+.navbar-brand {
+    width: 100vw;
+}
+
+.navbar-brand img {
+    height: 30vh;
+    width: 15vw;
+    margin-left: 10%;
 
 }
 
-.headerLogo {
-    width: 12%;
+nav div ul {
+    margin-right: 16vw;
+    font-size: 1.3rem;
 }
 
-.headerLogo img {
-    width: 100%;
-    height: 2%;
-}
-
-
-.divMenu {
-    width: 60%;
-}
-
-.headerMenu ul {
-    display: flex;
-    justify-content: space-between;
-}
-.headerMenu ul li {
-    list-style: none;
-    display: inline-block;
-
-}
 
 .headerWp {
-    height: 10vh;
-    width: 10vw;
+    height: 12vh;
+}
+
+div .headerWp {
+    margin-left: -20%;
 }
 
 
@@ -78,7 +60,6 @@ a {
     background-position: center;
     height: 82vh;
     width: 100%;
-    margin-top: 10%;
 }
 
 .textoHero {
@@ -162,7 +143,6 @@ a {
     "uñas pestañas cejas"
     "picUñas picPestañas picCejas";
 
-    margin-top: 10%;
     row-gap: 10%;
     margin-bottom: 5%;
 
@@ -230,7 +210,7 @@ a {
 }
 
 .tratamientosItem{
-    margin-top: 35%;
+    margin-top: 10%;
     margin-bottom: 10%;
     padding: 1% 5%;
     display: flex;
@@ -259,8 +239,6 @@ a {
 /* Nosotros */
 
 .nosotros {
-    margin-top: 10%;
-
     display: grid;
     grid-template-columns: repeat(2. 1fr);
     grid-template-areas: 
@@ -303,7 +281,6 @@ aside p {
 /* Turnos */
 
 .ubicacionConteiner {
-    margin-top: 10%;
 
     display: grid;
     grid-template-columns: repeat(2. 1fr);
@@ -342,9 +319,6 @@ aside p {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-top: 10%;
-
 }
 
 .form {
