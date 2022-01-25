@@ -372,6 +372,7 @@ aside p {
 .contactoForm {
     background-image: url("../img/cartas\ tratatamientos.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 48vh;
     width: 48vw;
     display: flex;
@@ -814,10 +815,15 @@ nav ul li{
     }
 
     .logoBienvenida {
-        height: 25vh; 
-        width: 40vw;
-        margin: 0 0 0 31%;
+        height: 80%; 
+        width: 80%;
+        padding-bottom: 35%;
+    }
 
+    .logoBienvenida img {
+        height: 50%;
+        width: 50%;
+        margin: 0 0 0 0;
     }
 
 
