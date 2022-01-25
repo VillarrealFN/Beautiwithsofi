@@ -1325,6 +1325,11 @@ nav ul li{
         .contactoForm {    
             width: 80vw;
         }
+
+        .form {    
+            width: 80vw;
+        }
+
             
         .social {
             display: flex;
