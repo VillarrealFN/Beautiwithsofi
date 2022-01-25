@@ -371,6 +371,7 @@ aside p {
 
 .contactoForm {
     background-image: url("../img/cartas\ tratatamientos.jpg");
+    background-repeat: no-repeat;
     height: 48vh;
     width: 48vw;
     display: flex;
