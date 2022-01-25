@@ -1320,6 +1320,27 @@ nav ul li{
             margin-top: 5vh;
         }
     
+    /* contacto */
+    
+        .contactoForm {    
+            width: 80vw;
+        }
+            
+        .social {
+            display: flex;
+            flex-direction: column;
+        }
+                
+        .contactoWp {
+            
+            width: 80vw;
+        }
+            
+         .contactoInsta {
+            width: 80vw;    
+        }
+
+
         /* footer */
     
         .footerMapa img{
