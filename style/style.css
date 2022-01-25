@@ -11,7 +11,7 @@ body {
     
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 .letraNav{
     font-family: 'Old Standard TT', serif;
     color: black;
 }
@@ -26,44 +26,40 @@ a {
 
 .navbar-brand {
     width: 100vw;
+    height: 12vh;
+
 }
 
 .navbar-brand img {
-    height: 30vh;
-    width: 15vw;
-    margin-left: 12%;
+
+    height: 20vh;
+    width: 10vw;
+    margin-left: 20%;
+    margin-top: -4%;
 }
 
 nav div ul {
-    margin-right: 18vw;
+    margin-right: 26vw;
     font-size: 1.3rem;
 }
 
 
-.headerWp {
-    height: 10vh;
-}
-
-div .headerWp {
-    margin-left: -10%;
-
-
-}
-
 .negrita {
     color: black !important;
+    margin-left: 2vw;
 }
 
 /* inicio */
 /* HERO */
 
 .hero {
-    background-image: url("../img/istockphoto-898577958-612x612.webp");
+    background-image: url("../img/portada 1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 82vh;
+    height: 90vh;
     width: 100%;
+
 }
 
 .textoHero {
@@ -82,8 +78,10 @@ div .headerWp {
 .bienvenidosAside {
     display: flex;
     justify-content: space-around;
-    height: 100%;
-    width: 100%;    
+    height: 80vh;
+    width: 100%;   
+    
+    margin: 10vh 0;
 }
 
 .seccionBienvenidos {
@@ -98,11 +96,11 @@ div .headerWp {
 .logoBienvenida {
     background-image: url("../img/Logo\ bienvenida.webp");
     background-size: cover;
-    padding: 0;
-    height: 35vh; 
-    width: 80%;
-    margin-left: 5%;
-    
+    background-repeat: no-repeat;
+    height: 30vh; 
+    width: 68%;
+    margin-left: 14%;
+    margin-top: 5vh;
 }
 
 .bienvenidos {
@@ -115,9 +113,9 @@ div .headerWp {
 
 .textoBienvenida {
     text-align: center;
-    font-size: 1.1rem;
-    margin-bottom: 4%;
-    padding: 4%;
+    font-size: 1.2rem;
+    margin-bottom: 6%;
+    padding: 0 8% 2% 8%;
 
 }
 
@@ -131,8 +129,10 @@ div .headerWp {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;    
+    height: 80vh;    
     width: 100%;
+
+    border-radius: 2%;
 
 }
 
@@ -142,6 +142,15 @@ div .headerWp {
 /* tratamiento */
 
 
+#tratamientos {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 2% 0;
+
+    font-weight: 400;
+}
+
 .tratamientoConteiner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -149,7 +158,7 @@ div .headerWp {
     "uñas pestañas cejas"
     "picUñas picPestañas picCejas";
 
-    row-gap: 10%;
+    row-gap: 1%;
     margin-bottom: 5%;
 
 }
@@ -158,8 +167,11 @@ div .headerWp {
 .uñas {
     grid-area: uñas;
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    margin: 0 15%;
+    border-radius: 4%;
+    margin: 0 12%;
     height: 40vh;
+    width: 25vw;
+
     text-align: center;
     font-size: 1.4rem;
 
@@ -174,8 +186,11 @@ div .headerWp {
 .pestañas {
     grid-area: pestañas;
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    margin: 0 15%;
+    border-radius: 4%;
+    margin: 0 12%;
     height: 40vh;
+    width: 25vw;
+
     text-align: center;
     font-size: 1.4rem;
 
@@ -189,9 +204,10 @@ div .headerWp {
 .cejas{
     grid-area: cejas;
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    margin: 0 15%;
+    border-radius: 4%;
+    margin: 0 12%;
     height: 40vh;
-
+    width: 25vw;
     text-align: center;
     font-size: 1.4rem;
 
@@ -226,6 +242,8 @@ div .headerWp {
 }
 
 .imgTratamiento {
+    border-radius: 4%;
+
     height: 40vh;
     width: 25vw;
 }
@@ -250,7 +268,7 @@ div .headerWp {
     grid-template-areas: 
     "imagen conocenos";
     
-
+    margin-bottom: 5vh;
 }
 
 .divImgNosotros {
@@ -259,6 +277,7 @@ div .headerWp {
 
 .imgNosotros {
     width: 50vw;
+    border-radius: 2%;
 }
 
 .asideNosotros {
@@ -269,7 +288,6 @@ div .headerWp {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    margin: 10% 0;
     padding: 0 10%;
 }
 
@@ -277,34 +295,34 @@ aside p {
     font-size: 1.2rem;
 }
 
-.botonTratamiento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4%;
-}
-
 /* Turnos */
 
 .ubicacionConteiner {
 
-    display: grid;
-    grid-template-columns: repeat(2. 1fr);
-    grid-template-areas: 
-    "encontranos mapa";    
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   margin-top: 1%;
 }
 
-.encontranos {
-    grid-area: encontranos;
 
-    width: 50vw;
+.encontranos {
+    height: 80vh;
+    width: 45%;
+
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    margin: 10% 0;
-    padding: 0 10%;
+    margin-right: 2%;
+
+    background-image: url(../img/cartas\ tratatamientos.jpg);
+    border-radius: 2%;
 
 }
 
@@ -314,8 +332,14 @@ aside p {
 
 
 .mapa {
-    grid-area: mapa;
-    width: 50vw;
+    width: 45%;
+    height: 80vh;
+}
+
+.mapa iframe {
+    width: 100%;
+    border-radius: 2%;
+
 }
 
 .botonTurnos {
@@ -330,11 +354,13 @@ aside p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10% 0 0 2%;
 }
 
 .form {
     display: flex;
-    justify-content: space-evenly;      
+    justify-content: space-evenly;
+    
     margin: 2% 0;
 }
 
@@ -345,18 +371,28 @@ aside p {
 
 .contactoForm {
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    height: 50vh;
+    height: 48vh;
     width: 48vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 
+    border-radius: 2%;
 
+    padding: 2%;
 }
 
 .formContacto input {
     width: 100% ;
+    padding: 0 2%;
+    border-radius: 2%;
+
+}
+
+input {
+    margin: 0 1%;
+
 }
 
 .social {
@@ -368,8 +404,10 @@ aside p {
 
 .contactoWp {
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    height: 50vh;
+    height: 48vh;
     width: 20vw;
+    border-radius: 2%;
+
 
     text-align: center;
     font-size: 1.4rem;
@@ -379,13 +417,17 @@ aside p {
     justify-content: space-evenly;
     align-items: center;
 
+    padding: 2%;
     margin-right: 4%;
 }
 
+
 .contactoInsta {
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    height: 50vh;
+    height: 48vh;
     width: 20vw;
+    border-radius: 2%;
+
 
     text-align: center;
     font-size: 1.4rem;
@@ -395,11 +437,20 @@ aside p {
     justify-content: space-evenly;
     align-items: center;
     
+    padding: 2%;
     margin-left: 4%;
 }    
 
+.contactoInsta p {
+    padding: 2%
+
+}
+
+
+
 .logoSocial {
     height: 7vh;
+
 }
 
 /* botones */
@@ -416,9 +467,10 @@ aside p {
 
 
 .footerConteiner {
-    background-color: #FAEBCD;
+    background-color: #FEE3EC;
     font-family: 'Old Standard TT', serif;
 
+    height: 40vh;
     padding: 3%;
 
     display: grid;
@@ -440,12 +492,14 @@ aside p {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .footerMapa img{
-    height: 5vh;
-    width: 4vw;
+    height: 7vh;
+    width: 5vw;
     margin: 5%;
 }
 
@@ -463,8 +517,8 @@ nav ul li{
 }
 
 .footerMail img {
-    height: 5vh;
-    width: 3vw;
+    height: 6vh;
+    width: 4vw;
     margin: 5%;
 }
 
@@ -475,20 +529,16 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 30vw;
+    height: 20vh;
 }
 
-.footerPago img{
-    height: 5vh;
-    width: 4vw;
-}
 
 .logoMp {
     grid-area: mp;
 }
 
-.logoEfectivo{
-    grid-area: efectivo;
-}
 
 .medioPago {
     grid-area: pagos;
@@ -496,8 +546,8 @@ nav ul li{
 }
 
 .footerPago img {
-    height: 6vh;
-    width: 3vw;
+    height: 7vh;
+    width: 5vw;
     margin-top: 2%;
 }
 
@@ -512,6 +562,24 @@ nav ul li{
 
 @media screen and (max-width: 1204px) {
     
+    .navbar-brand {
+        width: 100vw;
+        height: 12vh;
+    }
+
+    .navbar-brand img {
+        margin-top: -8%;
+    }
+    
+    nav div ul {
+        margin-right: 20vw;
+        font-size: 1.3rem;
+    }
+    
+
+    .fotoNav {
+        width: 50%;
+    }
 
     nav div ul {
         margin-left: 4%;
@@ -527,15 +595,23 @@ nav ul li{
         justify-content: center;
     }
 
+    .imgNosotros {
+        height: 55vh;
+    }
+
+    .asideNosotros h1 {
+        font-size: 1.8rem;
+    }
+
+    .asideNosotros h2 {
+        font-size: 1.5rem;
+    }
+
+    .asideNosotros p {
+        font-size: 1.2rem;
+    }
+
     /* turno */
-
-    .encontranos {
-        width: 45vw;
-    }
-
-    iframe {
-        width: 50vw;
-    }
 
     /* Contacto */
 
@@ -560,16 +636,42 @@ nav ul li{
 
 }
 
+@media screen and (max-width: 991px) {
+    .navbar-brand img {
+        margin-top: -3%;
+    }
+}
 
 @media screen and (max-width: 990px){
+
+    .navbar-brand img {
+        margin-top: -3%;
+    }
+
+    .fotoNav {
+        width: 50%;
+    }
 
     div .headerWp {
         height: 12vh;
         margin-left: 2%;
     }
 
+    /* inicio */
+
+    .logoBienvenida {
+        height: 30vh; 
+        width: 80%;
+        margin-left: 6%;
+    }
+
     /* nosotros */
 
+    .asideNosotros {
+        height: 55vh;
+        padding: 2% 4%;
+    }
+ 
     .imgNosotros {
         height: 55vh;
     }
@@ -583,7 +685,40 @@ nav ul li{
     }
 
     .asideNosotros p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    /* turnos */
+
+    .ubicacionConteiner {
+        margin-right: 1%;
+        width: 100%;
+}
+
+    .encontranos {
+        width: 45%;
+        padding: 0 2%;
+        margin-right: 1%;
+    }
+
+    .encontranos h1 {
+        font-size: 1.8rem;
+    }
+
+    .encontranos h2 {
+        font-size: 1.5rem;
+    }
+
+    .encontranos p {
+        font-size: 1.3rem;
+    }
+
+    .mapa {
+        width: 45%;
+    }
+
+    iframe {
+        width: 100%;
     }
 
     /* contacto */
@@ -595,20 +730,43 @@ nav ul li{
 
 }
 
+@media screen and (max-width: 850px) {
+
+    /* contacto */
+
+    .contactoInsta p, .contactoWp p {
+        font-size: 1rem;
+    }
+
+    /* footer */
+
+    .footerMapa img {
+        height: 7vh;
+        width: 7vw;       
+    }
+
+    
+    .footerMail img {
+        height: 7vh;
+        width: 7vw; 
+    }
+
+    .footerPago {
+        margin-top: 8%;
+    }
+
+    .footerPago img {
+        height: 7vh;
+        width: 7vw; 
+    }
+}
 
 
 @media screen and (max-width: 769px) {
     
-
-    
-
-    .header {
-        margin-bottom: 2%;
-        margin-right: 0;
-    }
-
-    .header {
-        background-color: white;
+    .navbar-brand img {
+        width: 15vw;
+        margin-top: -4%;
     }
 
     div .headerWp {
@@ -643,31 +801,57 @@ nav ul li{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        height: 120vh;
+
+        margin-bottom: 10%;
     }
 
-    .logoBienvenida {
-        margin-bottom: 6%;
-
-    }
-
-    .seccionBienvenidos, .asideInicio {
+    .seccionBienvenidos {
+        height: 60%;
         width: 100%;
     }
 
+    .logoBienvenida {
+        height: 25vh; 
+        width: 40vw;
+        margin: 0 0 0 31%;
+
+    }
+
+
     .textoBienvenida {
-        margin-bottom: 4%;
+        margin: 0 5% 4% 5%;
         padding: 4%;
     }
 
+    .asideInicio {
+        width: 100%;
+        height: 50%;
+    }
+
+    .asideInicio  img {
+        width: 90%;
+        height: 50vh;
+        margin: 0 5%;
+    }
+
+    .imgAside {
+        height: 10vh;
+    }
     
 
     /* tratamientos */
+
+    #tratamientos {
+        margin-top: 10vh;
+    }
 
     .tratamientoConteiner {
         height: 15vh;
         width: 100vw;
         padding-bottom: 35%;
-        margin-bottom: 50%;
+        margin: 10vh -3vw 50vh -3vw;
     }
 
 
@@ -683,12 +867,18 @@ nav ul li{
         align-items: center;
     }
 
+    .cejas .pestañas .uñas {
+        height: 20vh;
+    }
+
     .imgTratamiento {
         margin-top: -30%;
         height: 30vh;
     }
 
     /* nosotros */
+
+
 
     .imgNosotros {
         height: 55vh;
@@ -717,15 +907,16 @@ nav ul li{
     }
 
     .encontranos {
-        width: 100vw;
+        width: 80vw;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
 
     .mapa {
-        width: 98vw;
-
+        width: 80vw;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 
     iframe {        
@@ -747,29 +938,77 @@ nav ul li{
 
     /* footer */
 
+    .footerItem {
+        font-size: 0.9rem;
+    }
+
     .footerConteiner {
-        width: 97.8vw;
+        width: 97.3vw;
         height: 40vh;
     }
 
-    
+    .footerMapa img {
+        width: 8vw;
+        height: 6vh;
+    }
+
+    .footerMail img {
+        width: 8vw;
+        height: 6vh;
+    }
+
+    .logoMp {
+        height: 8vh;
+        width: 6vw;
+    }
+
 }
+
 
 @media screen and (max-width: 650px) {
     
     .navbar-brand img {
-        width: 25vw;
+        width: 18vw;
+    }
+
+    /* nosotros */
+
+    .nosotros {
+        padding: 2%;
+    }
+
+    .asideNosotros h1 {
+        font-size: 1.2rem;
     }
     
+    .asideNosotros h2 {
+        font-size: 1rem;
+    }
+    
+    .asideNosotros p {
+        font-size: 0.8rem;
+    }
+
+    /* contacto */
+
+    .contactoInsta p, .contactoWp p {
+        font-size: 0.8rem;
+    }
+
+    /* footer */
+
     .footerConteiner {
         width: 97vw;
-        height: 60vh;
+        height: 64vh;
 
         display: flex;
         flex-direction: column;
     }
 
-
+    .footerPago {
+        width: 100%;
+        margin: 0;
+    }
 
 }
 
@@ -783,14 +1022,28 @@ nav ul li{
     /* header */
 
     .navbar-brand img {
-        width: 25vw;
+        width: 20vw;
     }
 
     .tratamientoConteiner {
         margin-bottom: 65%;
     }
 
+    /* Bienvenidos */
+
+    .logoBienvenida img {
+        height: 100vh;
+        width: 100%;
+        padding-top: 0%;
+    }
+
     /* tratamientos */
+
+    .tratamientoConteiner {
+        width: 90%;
+        height: 100%;
+        margin: 0 4%;
+    }
 
     .uñas p, .pestañas p, .cejas p{
         font-size: 1rem;
@@ -803,6 +1056,9 @@ nav ul li{
 
     /* nosotros */
 
+    .nosotros {
+        margin-top: -10vh;
+    }
 
     .imgNosotros {
         height: 55vh;
@@ -854,14 +1110,13 @@ nav ul li{
 }
 
 
-
 @media screen and (max-width: 480px) {
     
     /* header */
 
     .navbar-brand img {
-        height: 30vh;
-        width: 30vw;
+        height: 18vh;
+        width: 25vw;
     }
 
     nav .headerWp {
@@ -878,7 +1133,12 @@ nav ul li{
         padding: 54% 5%;
     }
 
+
     /* tratamiento */
+
+    #tratamientos {
+        margin-top: 8%;
+    }
 
     .tratamientoConteiner {
         display: grid;
@@ -893,30 +1153,30 @@ nav ul li{
 
 
         padding-bottom: 30%;
-        margin-bottom: 340%;
     }
 
     .uñas {
         height: 48vh;
-        width: 50vw;
+        width: 51vw;
         grid-area: uñas;
         margin-top: 10%;
         margin-left: 25%;
+    
 
         font-size: 1rem;
     }
 
 
     .fotoUñas {
-        width: 78vw;
-        margin-left: 3%;
+        width: 75vw;
         grid-area: picUñas;
         margin-top: 26%;
+        margin-left: 2%;
     }
 
     .pestañas {
         height: 48vh;
-        width: 50vw;
+        width: 51vw;
         grid-area: pestañas;
         margin-left: 25%;
         margin-bottom: -32%;
@@ -926,14 +1186,14 @@ nav ul li{
     }
 
     .fotoPestaña {
-        width: 78vw;
+        width: 75vw;
         grid-area: picPestañas;
-        margin-left: 3%;
+        margin-left: 2%;
         padding-top: 10%;
     }
 
     .cejas {
-        width: 50vw;
+        width: 51vw;
         height: 48vh;
         grid-area: cejas;
         margin-left: 25%;
@@ -943,9 +1203,9 @@ nav ul li{
     }
 
     .fotoCejas {
-        width: 78vw;
+        width: 50vw;
         grid-area: picCejas;
-        margin-left: 3%;
+        margin-left: 20%;
         padding-top: 10%;
     }
 
@@ -966,14 +1226,75 @@ nav ul li{
 
 
 
-    /* Turnos */
+    /* contacto */
 
     .ubicacionConteiner {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin-top: 10vh;
+
+        padding: 2%;
+    }
+
+
+    .contactoForm {
+        width: 55vw;
+        height: 55vh;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactoWp {
+
+        width: 55vw;
+        height: 55vh;
+        margin: 5% 0 5% 0;
+    }
+
+    .contactoInsta {
+        width: 55vw;
+        height: 55vh;
+        margin: 5% 0 5% 0;
+
+    }
+
+    /*turnos*/
+
+    .encontranos h1 {
+        font-size: 1.4rem;
+    }
+    
+    .encontranos h2 {
+        font-size: 1.2rem;
+    }
+    
+
+    .encontranos p {
+        font-size: 1rem;
+    }
+    
+
+    /* nosotros */
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgNosotros {
+        width: 90vw;
+        border-radius: 2%;
+    }
+
+    .asideNosotros {
+        height: 44vh;
     }
 
 
@@ -990,4 +1311,115 @@ nav ul li{
     .footerMapa, .footerMail, .footerPago {
         margin: 4% 0;
     }
+}
+
+@media screen and (max-width: 414px) {
+        /* nosotros */
+
+        .nosotros {
+            margin-top: 5vh;
+        }
+    
+        /* footer */
+    
+        .footerMapa img{
+            height: 8vh;
+            width: 14vw;
+            margin: 5%;
+        }
+    
+        .footerMail img {
+            height: 8vh;
+            width: 14vw;
+            margin: 5%;
+        }
+    
+        .footerPago img {
+            height: 8vh;
+            width: 14vw;
+            margin-top: 2%;
+        }
+}
+
+
+@media screen and (max-width: 320px) {
+
+     /* header */
+
+     .navbar-brand img {
+        height: 18vh;
+        width: 30vw;
+    }
+
+    nav .headerWp {
+        margin-left: 0%;
+        height: 10vh;
+    }
+    
+    /* bienvenidos */
+
+    .logoBienvenida {
+        height: 70%;
+        width: 80%;
+        margin: 15% 0 0 8%;
+        padding-left: 2%;
+    }
+
+    .bienvenidos h3 {
+        padding: 0 20%;
+        font-size: 1.2rem;
+    }
+
+    .textoBienvenida {
+        font-size: 1rem;
+    }
+
+    /* nosotros */
+
+    .nosotros {
+        margin-top: 5vh;
+    }
+
+    /* contacto*/
+
+        /* contacto */
+    
+        .contactoForm {
+            width: 70vw;
+        }
+    
+        .social {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .contactoWp {
+    
+            width: 70vw;
+        }
+    
+        .contactoInsta {
+            width: 70vw;    
+        }
+
+    /* footer */
+
+    .footerMapa img{
+        height: 8vh;
+        width: 14vw;
+        margin: 5%;
+    }
+
+    .footerMail img {
+        height: 8vh;
+        width: 14vw;
+        margin: 5%;
+    }
+
+    .footerPago img {
+        height: 8vh;
+        width: 14vw;
+        margin-top: 2%;
+    }
+    
 }
