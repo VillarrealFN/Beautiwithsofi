@@ -1168,7 +1168,9 @@ nav ul li{
         grid-area: uñas;
         margin-top: 10%;
         margin-left: 25%;
-    
+        
+
+        padding-bottom: 10%;
 
         font-size: 1rem;
     }
@@ -1188,6 +1190,9 @@ nav ul li{
         margin-left: 25%;
         margin-bottom: -32%;
 
+        padding-bottom: 10%;
+
+
         font-size: 1rem;
 
     }
@@ -1206,6 +1211,10 @@ nav ul li{
         margin-left: 25%;
         margin-bottom: -32%;
         font-size: 1rem;
+
+        padding-bottom: 10%;
+
+
 
     }
 
@@ -1356,13 +1365,13 @@ nav ul li{
         /* footer */
     
         .footerMapa img{
-            height: 8vh;
+            height: 10vh;
             width: 14vw;
             margin: 5%;
         }
     
         .footerMail img {
-            height: 8vh;
+            height: 10vh;
             width: 14vw;
             margin: 5%;
         }
