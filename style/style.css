@@ -333,11 +333,12 @@ aside p {
 
 .mapa {
     width: 45%;
-    height: 80vh;
+    height: 100%;
 }
 
 .mapa iframe {
     width: 100%;
+    height: 80vh;
     border-radius: 2%;
 
 }
@@ -371,7 +372,6 @@ aside p {
 
 .contactoForm {
     background-image: url("../img/cartas\ tratatamientos.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     height: 48vh;
     width: 48vw;
@@ -1006,7 +1006,7 @@ nav ul li{
 
     .footerConteiner {
         width: 97vw;
-        height: 64vh;
+        height: 68vh;
 
         display: flex;
         flex-direction: column;
@@ -1107,7 +1107,7 @@ nav ul li{
 
     .footerConteiner {
         width: 96.7vw;
-        height: 60vh;
+        height: 64vh;
 
         display: flex;
         flex-direction: column;
@@ -1190,9 +1190,6 @@ nav ul li{
         margin-left: 25%;
         margin-bottom: -32%;
 
-        padding-bottom: 10%;
-
-
         font-size: 1rem;
 
     }
@@ -1211,10 +1208,6 @@ nav ul li{
         margin-left: 25%;
         margin-bottom: -32%;
         font-size: 1rem;
-
-        padding-bottom: 10%;
-
-
 
     }
 
@@ -1317,7 +1310,7 @@ nav ul li{
     /* footer */
 
     .footerConteiner {
-        height: 72vh;
+        height: 82vh;
         width: 100%;
         display: flex;
         flex-direction: column;
