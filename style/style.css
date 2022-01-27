@@ -46,7 +46,6 @@ nav div ul {
 
 .negrita {
     color: black !important;
-    margin-left: 2vw;
 }
 
 /* inicio */
@@ -1359,13 +1358,13 @@ nav ul li{
     
         .footerMapa img{
             height: 10vh;
-            width: 14vw;
+            width: 20vw;
             margin: 5%;
         }
     
         .footerMail img {
-            height: 10vh;
-            width: 14vw;
+            height: 8vh;
+            width: 16vw;
             margin: 5%;
         }
     
