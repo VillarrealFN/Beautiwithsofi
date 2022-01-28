@@ -157,7 +157,7 @@ nav div ul {
     "uñas pestañas cejas"
     "picUñas picPestañas picCejas";
 
-    row-gap: 1%;
+    row-gap: 2%;
     margin-bottom: 5%;
 
 }
@@ -816,6 +816,7 @@ nav ul li{
     .logoBienvenida {
         height: 80%; 
         width: 80%;
+        margin-top: 10%;
         padding-bottom: 35%;
     }
 
@@ -831,9 +832,12 @@ nav ul li{
         padding: 4%;
     }
 
+    
+    
     .asideInicio {
         width: 100%;
         height: 50%;
+        margin-top: 10%;
     }
 
     .asideInicio  img {
@@ -843,7 +847,8 @@ nav ul li{
     }
 
     .imgAside {
-        height: 10vh;
+        height: 30vh;
+        margin-top: 10%;
     }
     
 
@@ -857,20 +862,21 @@ nav ul li{
         height: 15vh;
         width: 100vw;
         padding-bottom: 35%;
-        margin: 10vh -3vw 50vh -3vw;
+        margin: 10vh 2vw 50vh -1vw;
     }
 
-
     .tratamientosItem {
-        margin-top: 50%;
+        margin-top: 30%;
         font-size: 1.5rem;
     }
 
-    .cartas p {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .uñasP1 {
+        padding-bottom: 10%;
+        margin: 0;
+    } 
+
+    .uñasP2 {
+        margin-bottom: 10%;
     }
 
     .cejas .pestañas .uñas {
@@ -881,6 +887,7 @@ nav ul li{
         margin-top: -30%;
         height: 30vh;
     }
+
 
     /* nosotros */
 
@@ -949,7 +956,7 @@ nav ul li{
     }
 
     .footerConteiner {
-        width: 97.3vw;
+        width: 100%;
         height: 40vh;
     }
 
@@ -1004,7 +1011,7 @@ nav ul li{
     /* footer */
 
     .footerConteiner {
-        width: 97vw;
+        width: 100%;
         height: 68vh;
 
         display: flex;
@@ -1048,8 +1055,18 @@ nav ul li{
     .tratamientoConteiner {
         width: 90%;
         height: 100%;
-        margin: 0 4%;
+        margin-left: 4%;
+
+        text-align: center;
     }
+
+    .uñas .pestañas .cejas {
+        width: 100%;
+    }
+
+    .imgTratamiento {
+        width: 26vw;
+    }    
 
     .uñas p, .pestañas p, .cejas p{
         font-size: 1rem;
@@ -1063,7 +1080,7 @@ nav ul li{
     /* nosotros */
 
     .nosotros {
-        margin-top: -10vh;
+        margin-top: -80%;
     }
 
     .imgNosotros {
@@ -1071,7 +1088,7 @@ nav ul li{
     }
 
     .asideNosotros {
-        height: 55vh;
+        height: 50vh;
     }
     
     .asideNosotros h1 {
@@ -1105,7 +1122,7 @@ nav ul li{
     }
 
     .footerConteiner {
-        width: 96.7vw;
+        width: 100%;
         height: 64vh;
 
         display: flex;
@@ -1158,7 +1175,7 @@ nav ul li{
         "picCejas";
 
 
-        padding-bottom: 30%;
+        padding-bottom: 10%;
     }
 
     .uñas {
@@ -1186,8 +1203,10 @@ nav ul li{
         height: 48vh;
         width: 51vw;
         grid-area: pestañas;
-        margin-left: 25%;
-        margin-bottom: -32%;
+
+        margin: 0 0 -32% 25%;
+        padding-bottom: 10%;
+
 
         font-size: 1rem;
 
@@ -1196,6 +1215,7 @@ nav ul li{
     .fotoPestaña {
         width: 75vw;
         grid-area: picPestañas;
+        margin-top: 50%;
         margin-left: 2%;
         padding-top: 10%;
     }
@@ -1206,6 +1226,10 @@ nav ul li{
         grid-area: cejas;
         margin-left: 25%;
         margin-bottom: -32%;
+
+        padding-bottom: 10%;
+
+
         font-size: 1rem;
 
     }
@@ -1213,6 +1237,7 @@ nav ul li{
     .fotoCejas {
         width: 50vw;
         grid-area: picCejas;
+        margin-top: 50%;
         margin-left: 20%;
         padding-top: 10%;
     }
@@ -1232,7 +1257,11 @@ nav ul li{
 
     }
 
+    /* nosotros */
 
+    .nosotros {
+        margin-top: -20%;
+    }
 
     /* contacto */
 
@@ -1241,7 +1270,7 @@ nav ul li{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 10vh;
+        margin-top: 1vh;
 
         padding: 2%;
     }
@@ -1326,6 +1355,11 @@ nav ul li{
 
         .nosotros {
             margin-top: 5vh;
+        }
+
+        .imgNosotros {
+            height: 40vh;
+            margin-bottom: 4%;
         }
     
     /* contacto */
@@ -1412,6 +1446,11 @@ nav ul li{
 
     .nosotros {
         margin-top: 5vh;
+    }
+
+    .imgNosotros {
+        height: 40vh;
+        margin-bottom: 6%;
     }
 
     /* contacto*/
